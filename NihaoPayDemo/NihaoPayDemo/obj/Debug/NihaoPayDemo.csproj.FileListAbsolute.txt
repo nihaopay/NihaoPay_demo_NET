@@ -1,7 +1,0 @@
-E:\测试代码\NihaoPay-SDK\NihaoPayDemo\bin\NihaoPayDemo.dll.config
-E:\测试代码\NihaoPay-SDK\NihaoPayDemo\bin\NihaoPayDemo.dll
-E:\测试代码\NihaoPay-SDK\NihaoPayDemo\bin\NihaoPayDemo.pdb
-E:\测试代码\NihaoPay-SDK\NihaoPayDemo\obj\Debug\NihaoPayDemo.dll
-E:\测试代码\NihaoPay-SDK\NihaoPayDemo\obj\Debug\NihaoPayDemo.pdb
-E:\测试代码\NihaoPay-SDK\NihaoPayDemo\bin\RestSharp.dll
-E:\测试代码\NihaoPay-SDK\NihaoPayDemo\bin\RestSharp.xml
