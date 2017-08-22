@@ -1,2 +1,2 @@
-# NihaoPay_demo_NET
-NihaoPay Api sample code (.net, C#)
+# NihaoPay API Demo (.net)
+A sample code for NihaoPay API, written in asp.net, c#
