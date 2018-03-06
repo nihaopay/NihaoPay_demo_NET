@@ -51,7 +51,10 @@ namespace NihaoPayDemo
             String[] requestItem = coll.AllKeys;
             for (int i = 0; i < requestItem.Length; i++)
             {
-                aResult.Add(requestItem[i],Request.Form[requestItem[i]]);
+                if(!string.IsNullOrEmpty(Request.Form[requestItem[i]]))
+                {
+                    aResult.Add(requestItem[i],Request.Form[requestItem[i]]);
+                }
             }
             return aResult;
         }
