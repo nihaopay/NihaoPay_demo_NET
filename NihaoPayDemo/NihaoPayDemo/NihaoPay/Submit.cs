@@ -16,6 +16,12 @@ namespace NihaoPayDemo.NihaoPay
 
         public static string submit(string ApiURL, Dictionary<string,object> param,Method httpMethod)
         {
+            //适用于。net framework 4.5
+            System.Net.ServicePointManager.SecurityProtocol = System.Net.SecurityProtocolType.Tls12;
+
+            //适用于。net framework 4.0
+            //System.Net.ServicePointManager.SecurityProtocol = (System.Net.SecurityProtocolType)3072 
+
             RestClient client = new RestClient(ApiURL);
             RestRequest request = new RestRequest(httpMethod);
             request.AddHeader("authorization", _token);
